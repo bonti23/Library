@@ -1,0 +1,4 @@
+1, MoaraCuNoroc, Slavici, 200
+2, aaa, aaa, 111
+3, Iona, Sorescu, 50
+4, Harry Potter, J K Rolling, 500
