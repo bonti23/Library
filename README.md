@@ -1,5 +1,27 @@
-The Library Application is designed to manage book rentals efficiently. It features two primary classes:
-Client – Represents a library member who can borrow books. The system allows adding, updating, deleting, and displaying client records.
-Book – Represents a book available in the library. Users can add, modify, remove, and view book details.
-To facilitate the borrowing and returning process, the RentalRepository class acts as an intermediary, enabling clients to rent and return books seamlessly. This repository ensures proper tracking of borrowed books, prevents double rentals of the same copy, and maintains a structured rental history.
-The undo operation is essential for ensuring that accidental modifications, deletions, or rentals can be reversed, maintaining data integrity. It allows users to revert the most recent actions, restoring the system to a previous state.
+# 📚 Library Application  
+
+The **Library Application** is designed to efficiently manage book rentals. It provides a structured system for handling clients, books, and rental operations.  
+
+## ✨ Features  
+
+### 🧑‍💼 Client Management  
+- Add, update, delete, and view client records.  
+- Ensures seamless handling of library members.  
+
+### 📖 Book Management  
+- Add, modify, remove, and view book details.  
+- Keeps track of available books.  
+
+### 🔄 Rental System  
+- **`RentalRepository`** enables clients to rent and return books seamlessly.  
+- Prevents **double rentals** of the same book copy.  
+- Maintains a **structured rental history**.  
+
+### ⏪ Undo Operation  
+- Allows users to **reverse accidental actions** (modifications, deletions, or rentals).  
+- Ensures **data integrity** by restoring the system to a previous state.  
+
+## 🛠 Technologies Used  
+- **Programming Language**: *(Python)*  
+
+## 🚀 Getting Started  
